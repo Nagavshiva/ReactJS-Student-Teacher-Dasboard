@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import logo from '../assets/TechCademy-logos.jpeg'
+import React from 'react';
+
 
 const Navbar = ({ inactive, toggleoff }) => {
   return (

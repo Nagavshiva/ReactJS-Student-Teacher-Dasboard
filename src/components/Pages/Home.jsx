@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import Sidebar from '../Sidebar'
-import Navbar from '../Navbar'
-import logo from '../../assets/TechCademy-logos.jpeg'
-import homeImage from '../../assets/homeImage.jpg'
+import React from 'react'
+// import Sidebar from '../Sidebar'
+// import Navbar from '../Navbar'
+// import logo from '../../assets/TechCademy-logos.jpeg'
+// import homeImage from '../../assets/homeImage.jpg'
 import Footer from '../Footer';
 
 
@@ -14,11 +14,10 @@ const Home = ({ inactive, toggleoff }) => {
           toggleoff ? 'toggleoff' : ''
         }`}
       >
-         {/* <h1>This is HOMEPAGE</h1>  */}
 
         <div className="container">
           <div className="heading d-flex my-2">
-            <h1 style={{ fontFamily: 'Arvo' }}>Welcome to Techcademy</h1>
+            <h1 style={{ fontFamily: 'Arvo' }}>Welcome to Software Giant</h1>
             <img
               src={"https://mir-s3-cdn-cf.behance.net/projects/404/306ff078838287.Y3JvcCwyMzAxLDE4MDAsMTQ4LDA.jpg"}
               style={{ width: '50px', height: '50px', marginLeft: '10px' }} alt=""

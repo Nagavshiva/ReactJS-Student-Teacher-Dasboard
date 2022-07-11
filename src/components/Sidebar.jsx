@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../assets/TechCademy-logos.jpeg'
-import user from '../assets/profile.png'
 import MenuItem from './MenuItem'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 
@@ -114,7 +112,7 @@ const Sidebar = ({ onCollapse, onToggleOff }) => {
         </div>
         <div className="user-info">
           <h5>Jason </h5>
-          <p>ajjas007@gmail.com</p>
+          <p>Jason 007@gmail.com</p>
         </div>
       </div>
     </div>
